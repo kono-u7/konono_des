@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Konono_profile</title>
     <style>
-        
         @font-face {
             font-family: 'HuiFont';
             src: url('HuiFont29.ttf') format('truetype');
@@ -70,12 +69,7 @@
             height: auto;
             margin-bottom: 10px;
         }
-        footer {
-            text-align: center;
-            padding: 10px 0;
-            background: #DB979C;
-            color: #FBF4F4;
-        }
+        
         .video-container {
             text-align: center;
             margin: 20px 0;
@@ -94,9 +88,34 @@
             display: block;
             margin: 0 auto;
         }
-
+        
+        .novel-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .novel-list li {
+            margin-bottom: 10px;
+        }
+        .novel-list a {
+            text-decoration: none;
+            color: #DB979C;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        .novel-list a:hover {
+            color: #CF7272;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #DB979C;
+            color: #FBF4F4;
+        }
     </style>
 </head>
+    
 <body>
     <header>
         <h1>Konono_desu</h1>
@@ -107,6 +126,7 @@
         <a href="#profile">くわしく！</a>
         <a href="#art">おえかき</a>
         <a href="#video">動画</a>
+        <a href="#novel">SS</a>
     </nav>
 
     <section id="profile">
@@ -160,6 +180,9 @@
             <img src="past_henceforth.png" alt="Henceforth_past">
             <img src="kain_point.png" alt="kain_point">
             <img src="kain_personal.png" alt="kain_personal">
+            <img src="rui_1211.png" alt="rui_1211">
+            <img src="file09-1.png" alt="before">
+            <img src="file09-2.png" alt="after">
         </div>
     </section>
 
@@ -172,6 +195,25 @@
                 ブラウザを変えてお試しください。
             </video>
         </div>
+        <div class="video-container">
+            <h3>File 09-Hawkeyes,Nightowl</h3>
+            <video controls>
+                <source src="File09.mp4" type="video/mp4">
+                ブラウザを変えてお試しください。
+            </video>
+        </div>
+    </section>
+    
+    <section id="novel">
+        <h2>SS</h2>
+        <ul class="novel-list">
+            <li>
+                <a href="https://x.com/konon0no___01/status/1866770372814835829?s=46&t=MHnF3OWtAA9rQEYI4wmQ7A" target="_blank">
+                    12/11 HawkEyes
+                </a>
+            </li>
+        </ul>
+
     </section>
 
     <footer>
